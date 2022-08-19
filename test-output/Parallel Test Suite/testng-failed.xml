@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Parallel Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="SauceDemoTest(failed)">
+    <classes>
+      <class name="suite2.SauceDemoTests">
+        <methods>
+          <include name="afterTest"/>
+          <include name="open"/>
+          <include name="beforeTest"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- suite2.SauceDemoTests -->
+    </classes>
+  </test> <!-- SauceDemoTest(failed) -->
+</suite> <!-- Failed suite [Parallel Test Suite] -->
